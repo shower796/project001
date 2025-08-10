@@ -128,13 +128,22 @@ span{
 .panel-all {
     cursor: pointer;
 }
-.hero-section{
+.hero-section {
     background-image: url("hero_image.jpg");
-    height: 350px;
-    background-size: cover;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
+    background-size: contain; /* or cover depending on effect */
+    background-position: center;
+    background-repeat: no-repeat;
+    height: auto;
+    aspect-ratio: 16 / 9; /* keeps proportion */
+}
+
+.box-img {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1; /* or change depending on image */
 }
 .hero-msg{
     background-color: white;
@@ -169,15 +178,6 @@ span{
     flex-direction: column;
     height: auto; /* Let it grow naturally */
 }
-
-.box-img {
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    aspect-ratio: 4/3; /* Keeps consistent proportions */
-    border-radius: 5px;
-}
-
 .box-content {
     margin: 1rem;
     flex: 1;
