@@ -160,21 +160,29 @@ span{
     justify-content: space-evenly;
     background-color: #e2e7e6;
 }
-.box{
-    height: 380px;
+.box {
     width: 23%;
     background-color: white;
-    padding: 20px 0px 15px;
+    padding: 20px 0 15px;
     margin: 10px;
+    display: flex;
+    flex-direction: column;
+    height: auto; /* Let it grow naturally */
 }
+
 .box-img {
-    height: 300px;
     background-size: cover;
+    background-position: center;
+    width: 100%;
+    aspect-ratio: 4/3; /* Keeps consistent proportions */
+    border-radius: 5px;
 }
+
 .box-content {
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin: 1rem;
+    flex: 1;
 }
+
 h2 {
     font-size: larger;
 }
@@ -353,5 +361,6 @@ ul a{
 .panel-ops a:hover {
     text-decoration: underline;
 }
+
 
 
