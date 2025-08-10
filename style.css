@@ -255,7 +255,14 @@ ul a{
         max-width: 80%;
     }
 }
-
+.disclaimer {
+    background-color: #222f3d; /* Same as foot-panel2 background */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.85rem;
+    line-height: 1.4;
+}
 @media screen and (max-width: 768px) {
     /* NAVBAR */
     .navbar {
@@ -327,4 +334,5 @@ ul a{
         font-size: 10px;
     }
 }
+
 
