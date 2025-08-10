@@ -170,6 +170,8 @@ span{
 .box-img {
     height: 300px;
     background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 .box-content {
     margin-left: 1rem;
@@ -325,33 +327,4 @@ ul a{
         font-size: 10px;
     }
 }
-.disclaimer {
-    background-color: #222f3d; /* Same as foot-panel2 background */
-    color: white;
-    padding: 20px;
-    text-align: center;
-    font-size: 0.85rem;
-    line-height: 1.4;
-}
-/* .disclaimer p {
-    max-width: 900px;
-    margin: 0 auto;
-} */
-
-.panel-ops {
-    display: flex;
-    gap: 15px; /* space between items */
-    align-items: center;
-}
-
-.panel-ops a {
-    text-decoration: none;
-    color: white; /* match your header */
-    font-weight: bold;
-}
-
-.panel-ops a:hover {
-    text-decoration: underline;
-}
-
 
